@@ -602,7 +602,7 @@ func RewriteAllPublicKeys() error {
 			}
 		}
 	}
-
+	
 	if err = os.Rename(tmpPath, fPath); err != nil {
 		return err
 	}
